@@ -4,4 +4,5 @@ import json
 tweets = json.load(open('tweets.json'))
 
 for t in tweets:
+  # Do things with the data here!
   print(t["text"])
